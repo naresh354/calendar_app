@@ -1,15 +1,14 @@
-
-import './App.css';
-import Calender from './Components/Calender';
+import { ToastContainer } from "react-toastify";
+import "./App.css";
+import CalenderView from "./Components/CalendarView";
 
 function App() {
- 
-
   return (
     <>
-     <Calender />
+      <ToastContainer />
+      <CalenderView />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
